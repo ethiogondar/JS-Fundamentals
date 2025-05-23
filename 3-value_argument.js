@@ -1,6 +1,7 @@
-const argument = 20;
-if(argument<=25) {
-    console.log('the first argument passed to it');
+const args = process.argv.slice(2);
+
+if (args[0] === undefined) {
+    console.log("No argument");
 } else {
-    console.log('noargument');
+    console.log(args[0]);
 }
