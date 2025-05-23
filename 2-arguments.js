@@ -1,9 +1,24 @@
-const processargv = ['yazie', 'yaz'];
-if (processargv.length <= 2) {
-    console.log("No argument");
-    } else if (processargv.length === 3) {
-    console.log("Argument found");
-    } else {
-    console.log("Arguments found");
+const processargu = 'yazie';
+if(processargu.length <= 2) {
+    console.log("Argument found");}
+    else {
+        console.log("Not argument")
     }
-   
+    if(processargu.length===5){
+        console.log("Argument found;")
+    }
+    else {
+        console.log("Not argument")
+    }
+    if(processargu.length<=8){
+        console.log("Argument found");}
+        else {
+            console.log("Not argument");
+        }
+
+        
+    //} else  (processargu.length === 3) {
+    //console.log("Argument found");
+    //} /*else {
+    console.log("Arguments found");
+    //}*/
