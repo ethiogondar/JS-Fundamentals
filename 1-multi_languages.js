@@ -1,6 +1,3 @@
-const myVar = "C is fun";
-const myPython = "Python is cool";
-const myJava = "JavaScript is amazing";
-console.log(myVar);
-console.log(myPython);
-console.log(myJava);
+console.log("C is fun");
+console.log("Python is cool");
+console.log("JavaScript is amazing");
