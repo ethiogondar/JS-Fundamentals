@@ -1,24 +1,10 @@
-const processargu = 'yazie';
-if(processargu.length <= 2) {
-    console.log("Argument found");}
-    else {
-        console.log("Not argument")
-    }
-    if(processargu.length===5){
-        console.log("Argument found;")
-    }
-    else {
-        console.log("Not argument")
-    }
-    if(processargu.length<=8){
-        console.log("Argument found");}
-        else {
-            console.log("Not argument");
-        }
+// Access command-line arguments, excluding the first two default ones
+const args = process;//.argv.slice(2);
 
-        
-    //} else  (processargu.length === 3) {
-    //console.log("Argument found");
-    //} /*else {
+if (args.length === 0) {
+    console.log("No argument");
+} else if (args.length === 1) {
+    console.log("Argument found");
+} else {
     console.log("Arguments found");
-    //}*/
+} 
