@@ -3,4 +3,4 @@ const myPython = "Python is cool";
 const myJava = "JavaScript is amazing";
 console.log(myVar);
 console.log(myPython);
-console.log(myjava);
+console.log(myJava);
