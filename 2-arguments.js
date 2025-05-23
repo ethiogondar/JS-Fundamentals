@@ -1,4 +1,4 @@
-const processargv = 'yaz';
+const processargv = ['yaz','abee', 'ya'];
 if (processargv.length <= 2) {
     console.log("No argument");
     } else if (processargv.length === 3) {
