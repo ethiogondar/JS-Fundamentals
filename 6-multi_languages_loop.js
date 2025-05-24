@@ -3,13 +3,9 @@ for(let item of arr) {
     console.log(item);
 }*/
 const lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
-let output = "";
+//let output = "";
 
-for (let i = 0; i < lines.length; i++) {
-  output += lines[i];
-  if (i < lines.length - 1) {
-    output += "\n";
-  }
+for (let i = 0; i < lines.length; i++){ 
+    console.log(lines[i]);
 }
 
-console.log(output);
